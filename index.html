@@ -133,7 +133,7 @@
 				<br>
 				
 				Reported by “quozi”. The report includes different systems in which an svg renders different colors. “Quozi” later comments more systems in which the svg
-				renders different.<br><
+				renders different.<br>
 				
 			
 				<p class="text-center display-4 text-wrap"><pre class="font-weight-bolder">Error with bouncing objects in the pysics activiy</pre></p>
@@ -199,14 +199,53 @@
 			</p>	
 
 					
-					
+			<p class="font-family-arial"><code>2.17.21 - STUPID or SOLID</code><br><br>		
+
+				Software development is a generally fluid concept without solid rules or rights and wrongs. In most cases if it works, it works
+				. As long as the desired outcome is achieved all is well. However, this article presents the idea of going from STUPID code to SOLID code.<br><br>
+
+				S - (Singleton Pattern) - using a global variable in your code is a dangeround process that requires special attention at all times. 
+				These patterns should only be used when there are no other options.<br><br>
+
+				T - (Tight Coupling) - This can be a symptom of using Singleton patterns. If making a change in a specific module requires changing
+				in another this is coupling. This creates redundancy that will lead to re-writing code.<br><br> 
+
+				U - (Untestability) - Testing is absolutely mandatory and when writing code you should be thinking of how you are going to test while 
+				you write it. If you having a tough time writing unit tests for your code that is a sign of bad code and often happens from tight coupling mentioned above.<br><br>
+
+				P - (Premature Optimization) - Think twice when attempting to optimize code. You may be tempted to try and tweak an algorithm here and 
+				there to run more efficiently. Though this may save you tiny bits of time it may require adjusting much more than you think. Its 
+				often unnecessary to try and optimize working code.<br><br>
+
+				I - (Indescreptive Naming) - Pretty descriptive title. Make your variable names, methods and classes have descriptive names that 
+				relate to what they do. This helps others understand your code better.<br><br>
+
+				D - (Duplication) - Don’t repeat yourself. Write methods and classes that work across applications that way you don’t have to
+				write and rewrite code.<br><br>
 
 
+				As you can see these are not strict rules that a developer can follow. Rather, it is a set of instructions to keep in mind while working.
+				Many of these problems are interrelated and lead to other issues. These issues are evidenced even more when trying to scale. Code smart to save yourself down the line.<br><br>
 
-				
+				S - (Single Responsibility Issue) - Classes should only have one responsibility. Just because you can make a single class do numerous different
+				things doesnt mean it's a good idea. There should never be more than one reason for a class to change.<br><br>
 
-				
+				O - (Open/Closed Principle) - Variable types should be made variable by default. Getters and setters can be written where needed.<br><br>
 
+				L - (Liskov Substitution Principle) - Subtypes of objects should be able to replace objects. It should not require a change of code to make a
+				sub type an object.<br><br>
+
+				I - (Interface Segregation Principle) - Interfaces should serve direct client needs. You should not try and create an all encompassing interface.
+				Tailor these interfaces to specific needs.<br><br>
+
+				D - (Dependency Inversion Principle) - Abstractions should not depend upon details rather details should depend upon abstractions. Refrain from adding 
+				concrete classes to method signatures of an interface.<br><br>
+
+				Although application of some of these concepts is currently beyond the scope of my knowledge, it was still interesting and helpful to lean these
+				principles. If I can remember to use these as a guideline it will help my development abilities in the future. <br><br>
+
+
+			</p
 				
 				</div>
 				
