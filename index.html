@@ -293,7 +293,56 @@
 				
 				<br><br><br><br>
 
-			</p>	
+			</p>
+
+			<p class="font-family-arial"><code>3.18.21 - Domain Classes</code><br><br>
+				
+				A fundamental part of software development is testing. Without appropriate testing software will not be able to fulfill its capabilities 
+				and will cause problems for users and developers. There are many components to software testing including unit testing, integration testing, 
+				and using software metric guidelines.<br><br>
+				
+				Oftentimes when developing software you work with an existing codebase known as legacy code. These legacy codebases are usually divided 
+				into large classes known as domain classes. Domain classes generally evolve through numerous iterations during their lifetime. However, 
+				there are usually similarities between all the domain classes. It is standard practice to have testing that is specifically focused on each 
+				domain class. These tests are known as unit tests.<br><br>
+				
+				Unit tests allow for a software to be tested via a test suite that tests each individual domain class as part of a larger whole. A unit test 
+				can not succeed in two different ways, an assertion in the code that is not confirmed is called a “failure”, or if the code itself experience
+				s a runtime error this is a “bug.” When unit testing it’s important to test the all instance variables, getter methods, and their different 
+				functionality. <br><br>
+				
+				After unit testing each domain class of the software it is important to test how the different domain classes interact with each other, 
+				this is known as integration testing. Before integration testing, make sure the respective classes and modules have been tested separately, 
+				all tests have been merged into the codebase, and that the new code has been pulled into the developers own copies of the code base.<br><br>
+				
+				No matter who writes code and how well it is written, you will run into bugs in the software. Luckily with open source projects you have users 
+				that oftentimes are capable of helping with the workload. Whether that be through debugging, refactoring code, or even writing documentation.
+				Users are the first line of defense because just by using the product they will subert the software to situations that you did not test. It is
+				nearly impossible to test all use cases and edge cases specifically. Without knowing it users will be stress testing the software all the time.<br><br>
+				
+				Even if your software is performing as expected and does not seem to have any existing bugs there could still be work to do. Refactoring is 
+				the process of changing how existing software is written to make it more concise or functional. These changes are not designed to affect the 
+				external processes of the software being refactored. Some reasons for refactoring include poorly named variables and functions, duplicate code,
+				functions or classes that are too long, and poorly commented code. <br><br>
+				
+				While this may seem like a very strenuous process there are some tools to help you. Generally whatever language you are coding in has tools to
+				build unit and integration tests. GitHub is a great resource for exposing your project to a wide array of users as well as providing excellent 
+				version control. There are also several metrics you can use to judge your software. These include count metrics, clarity metrics, cohesion metrics,
+				and coupling metrics. All of these are pretty standardized and give you an idea of how well written your code is. <br><br><br><br>
+			</p>
+
+				
+				
+
+
+
+
+
+
+
+
+
+			
 				</div>
 				
 				
