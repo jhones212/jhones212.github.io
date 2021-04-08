@@ -295,7 +295,7 @@
 
 			</p>
 
-			<p class="font-family-arial"><code>3.18.21 - Domain Classes</code><br><br>
+			<p class="font-family-arial"><code>3.18.21 - Chapter 5 - Domain Classes</code><br><br>
 				
 				A fundamental part of software development is testing. Without appropriate testing software will not be able to fulfill its capabilities 
 				and will cause problems for users and developers. There are many components to software testing including unit testing, integration testing, 
@@ -331,11 +331,95 @@
 				and coupling metrics. All of these are pretty standardized and give you an idea of how well written your code is. <br><br><br><br>
 			</p>
 
+			
+
+			<p class="font-family-arial"><code>3.25.21 - Chapter 6 - Database Modules</code><br><br>
+		
+				When most people think of software engineering they think of linked lists, arrays, for loops, and if/else statements. Databases often get ignored
+				because they may be seen as less exciting to a lot of developers. Databases are essential systems to the storage and retrieval of information.<br><br>
+				
+				Databases are the backbone of most software applications and differ from a domain class or object because its data remains in permanent memory
+				, separate from the memory where the program runs. Oftentimes data will be stored as part of a server. Databases are unique because their lifetime 
+				often lasts longer than the program its associated with, this is known as persistence.<br><br>
+				
+				Databases can be broken into several different models such as the “relational model” and the “non relational model.” Relational models of
+				databases store data as a collection of two-dimensional tables. This is convenient because they can be accessed easily and efficiently by SQL. 
+				The Structured Query Language(SQL) is a widely used almost exclusive database modeling language. SQL is generally based on relational algebra and 
+				matrices.<br><br>
+				
+				Manipulating data in SQL is generally accomplished through queries. Although this seems like an obvious term for retrieving data, it is also 
+				the term used to insert, update, or delete data. Some common queries include CREATE TABLE - to create a table in a database, DROP TABLE - to remove
+				a database, SELECT * FROM - to return data based on certain conditions stated, INSERT INTO - to insert new data into a table, DELETE FROM - to delete
+				rows from a table, and UPDATE - to change data values in the table.<br><br>
+				
+				A main strategy in database design is normalization. This strategy is in place so that tables can support queries and ensure data integrity but 
+				eliminating data redundancy. A relational database can be considered “normatlized” if it meets all of the following:<br><br>
+				
+				1) The rows can be rearranged without changing the meaning of the table (i.e., there’s no implicit ordering or functional interdependency
+				among the rows).<br>
+				2) The columns (attributes) can be rearranged without changing the mean- ing of the table (i.e., there’s no implicit ordering or functional 
+				interde- pendency among the columns).<br>
+				3) No two rows of a table are identical. This is often accomplished by defining one column whose values are mutually unique. This 
+				column is known as the table’s primary key.<br>
+				4) No row has any hidden components, such as an object id or a timestamp.<br>
+				5) Every entry in the table has exactly one value of the appropriate type.<br>
+				6) No attribute in the table is redundant with (i.e., appears as an explicit substring of) the primary key.<br><br>
+				
+				Security plays a huge role in database design. To ensure security, tables should be limited to who can access and perform different queries. 
+				This is called designating privilege. Many developers also implement encryption to secure their data. Overall, databases are an extremely
+				important part of software engineering and is often the heart of any application.<br><br><br><br>		
+				
+			</p>
+				
+			<p class="font-family-arial"><code>3.30.21 - Chapter 7 - User Interface Dev</code><br><br>
+				
+				The user interface of a software application is where the code meets the client. UI represents the glue holding all other components
+				together. This isnt just true for code but the whole development process hinges on the UI. When speaking with a client they are going
+				to want to know about the functionality, bugs, and new features relating to the user interface.<br><br>
+				
+				The book outlines several principles to facilitate a “good user interface.”<br>
+				1. Task-Oriented There is a clear mapping between the steps of each use case in the design document and a page or group of related 
+				pages in the user interface.<br>
+				2. Language The language of the interface must be consistent with the lan- guage of the domain and the user. All labels
+				and user options that appear on individual pages must be consistent with their counterparts in the design document and the domain classes.<br>
+				3. Simplicity No page should contain too much information or too little. Each page should be pleasant to view, yet its functionality 
+				should not be buried by elaborate stylistics.<br>
+				4. Navigability Navigation within a page and between related pages should be simple, explicit, and intuitive.<br>
+				5. Visual consistency All pages in the user interface should have a similar look and navigation style.<br>
+				6. Discoverability Each page should provide the user with clear feedback on what has just been done, what can be done next, how to do 
+				it, and how to undo it.<br>
+				7. Data integrity The types and valid values for individual user data entries must be clearly indicated. The software should
+				validity-check all data at the time of entry and the user should be required to correct errors before the entries are saved in the database.<br>
+				8. Client-server integrity The activities of several different users who hap- pen to be using the system at the same time must be kept separate 
+				and independent.<br>
+				9. Security An individual user should have access to the system’s function- ality, but only that functionality for which he/she is authorized.<br>
+				10. Documentation Every page or group of pages in the user interface should be linked to a step-by-step instruction that teaches a user how 
+				that page can be used to accomplish a task. <br><br>
+				
+				Because the user interface has a multitude of different elements there has been a widely used strategy called the “model-view-controller” pattern.
+				The MVC pattern separates code into three different pieces: The model - code that underlies the application’s logic and underlying data, The view
+				- code that presents the components of the interface to the user, and The controller - code that controls the user’s input, output, and 
+				navigational functionality for that component. <br><br>
+				
+				The MVC pattern encourages independent coding, testing, and maintenance of each component. This layered architecture encapsulates the
+				database and domain layers, while the code in the view and controller is encapsulated within the user interface layer.	<br><br><br><br>
+				
+			</p>
+
+			<p class="font-family-arial"><code>3.30.21 - Chapter 7 - User Interface Dev</code><br><br>
+				The alumni symposium was very informative and interesting. It’s always nice hearing from people who have been in the situation us 
+				students are. Graduating is an exciting, nerve wracking, and confusing time. A lot of people may be searching for jobs, figuring out where 
+				they want to live, and the next step in their life. <br><br>
+				
+				It’s especially nice hearing about the day in day out life of some of our alumni. Its great for perspective and knowing what to expect. 
+				Some of the knowledge passed on I will remember for a long time. I really appreciate these alumni taking time out of their daily lives 
+				to speak with us.<br><br><br><br><br>
+
+				
+			
 				
 				
-
-
-
+			</p>
 
 
 
